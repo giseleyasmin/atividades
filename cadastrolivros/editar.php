@@ -17,7 +17,7 @@
     else {
         $cadastroLivros =& $_SESSION["$cadastroLivros"];
         $livro = array("nomeLivro" => $nomeLivro, "autor" => $autor, "isbn" => $isbn, "genero" => $genero, "formato" => $formato, "sinopse" => $sinopse);
-        $cadastrolivros[$id] = $livro;
+        $cadastroLivros[$id] = $livro;
         }
     
     echo "Edição efetuado com sucesso!";
