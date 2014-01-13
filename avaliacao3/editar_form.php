@@ -15,9 +15,9 @@
             <br/>
             <input type="text" name="nome" />
             <br/>
-            <input type="radio" name="cor" value="a" checked="checked" /><label>Azul</label>
-            <input type="radio" name="cor" value="v" /><label>Verde</label>
-            <input type="radio" name="cor" value="r" /><label>Vermelho</label>
+            <input type="radio" name="cor" value="Azul" checked="checked" /><label>Azul</label>
+            <input type="radio" name="cor" value="Verde" /><label>Verde</label>
+            <input type="radio" name="cor" value="Vermelho" /><label>Vermelho</label>
             <br/>
             <input type="submit" value="Editar" />  
         </form> 
