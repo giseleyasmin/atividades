@@ -23,6 +23,7 @@
                 $nomePai = $pessoa["nomePai"];
                 $aceito = $pessoa["aceito"];
                 $estado = $pessoa["estado"];
+                $texto = $texto["texto"];
                 
                 //titulo da descrição
                 echo "<dt class='$sexo'>" . $pessoa["nome"] . "</dt>";
@@ -32,6 +33,7 @@
                 echo "<dd>Nome Da Mãe: " . $nomeMae . "</dd>";
                 echo "<dd>Nome Do Pai: " . $nomePai . "</dd>";
                 echo "<dd>Estado: " . $estado . "</dd>";
+                echo "<dd>Texto: " . $texto . "</dd>";
                 
     
                 echo "<dd>Aceito o contrato: ";
