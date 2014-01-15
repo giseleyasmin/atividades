@@ -26,7 +26,8 @@
                             "nomeMae" => $nomeMae,
                             "nomePai" => $nomePai,
                             "aceito" => $aceito,
-                            "estado" => $estado);
+                            "estado" => $estado,
+                            "texto" => $texto);
             $cadastros[$id] = $pessoa;
         }
     
